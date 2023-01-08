@@ -1,7 +1,7 @@
 {
   "project_name": "fastapi-backend",
   "package_name": "{{ cookiecutter.project_name.replace('-', '_') }}",
-  "friendly_name": "{{ ' '.join(s.title() for s in cookiecutter.project_name.replace('-', ' ').split(' ')) }}",
+  "friendly_name": "{{ cookiecutter.project_name.replace('-', ' ').title() }}",
   "author": "Dogeek",
   "email": "simon.bordeyne@gmail.com",
   "github_user": "Dogeek",
